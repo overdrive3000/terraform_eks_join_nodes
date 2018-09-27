@@ -4,7 +4,7 @@ This terraform module creates the required local configuration for kubectl and a
 
 The Join EKS nodes module requires:
 
-* An EKS Cluster, preferably created using the [EKS Cluster Module](https://github.com/overdrive3000/eks_cluster).
+* An EKS Cluster, preferably created using the [EKS Cluster Module](https://github.com/overdrive3000/terraform_eks_cluster).
 * The kubectl binary installed within the OS Path as described at (https://docs.aws.amazon.com/eks/latest/userguide/install-kubectl.html)
 * The aws-iam-authenticator binary installed within the OS Path as described at (https://docs.aws.amazon.com/eks/latest/userguide/getting-started.html#eks-prereqs)
 * The IAM user configured with using this module should be the same used to create the EKS Cluster.
